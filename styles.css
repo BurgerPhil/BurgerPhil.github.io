@@ -1,0 +1,34 @@
+
+/* h1 and "p" are selectors- color is the attribute you select that will be applied */
+
+h1{
+
+    color:red;
+    font-size:90px;
+}
+
+/* to make a more specific selector within the HTML you need to create ID tags for specific portions of the HTML.  In this case we made the first ID as__ p id="first"__ */
+/* selectors need to be lowercase and all one word */
+
+#first {
+    color:purple;
+}
+#second {
+    color: orange;
+}
+
+#three {color: green; }
+
+#business {width: 200px; height: 300px;}
+
+.tacos {color:black; font-size: xx-large}      
+
+/* the selector for classes is "." + "attribute" */
+
+
+
+
+
+
+
+
