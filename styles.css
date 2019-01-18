@@ -10,6 +10,15 @@ h1{
 /* to make a more specific selector within the HTML you need to create ID tags for specific portions of the HTML.  In this case we made the first ID as__ p id="first"__ */
 /* selectors need to be lowercase and all one word */
 
+body{background-color: skyblue;}
+
+
+.header {
+border-color: saddlebrown;
+border-style: groove;
+box-shadow: 10pt;
+}
+
 #first {
     color:purple;
 }
@@ -17,7 +26,10 @@ h1{
     color: orange;
 }
 
-#three {color: green; }
+.three {
+    color: green; 
+    text-shadow: 50px rgb(34, 8, 8);
+}
 
 #business {width: 200px; height: 300px;}
 
@@ -25,6 +37,7 @@ h1{
 
 /* the selector for classes is "." + "attribute" */
 
+.si {color:royalblue;}
 
 
 
