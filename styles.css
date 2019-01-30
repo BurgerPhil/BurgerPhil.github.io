@@ -1,47 +1,98 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color:#ffffe6;
+    }
+    
+    .nav-link {
+    font-size: 13px;
+    }
+    
+    
+    a.navbar-brand img { /* a.navbar-brand shows that it is an a class and the element with the class navbar-brand has an img inside of it */
+    width: 100px;
+    }
+    .jumbotron { 
+    background-image: url(couplejumbo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px ;
+    padding-top: 100px ;
+    color: white;
+    text-shadow: 2px 2px 8px #c61ca1;
+    
+    }
 
-/* h1 and "p" are selectors- color is the attribute you select that will be applied */
+    .jumbotron2 { 
+        background-image: url(flights.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 600px ;
+        padding-top: 100px ;
+        color: white;
+        text-shadow: 2px 2px 8px #c61ca1;
+        
+        }
+    .card-deck {
+    
+    padding-top: 50px;
 
-h1{
+    }
 
-    color:red;
-    font-size:90px;
+    .display-4 {
+        text-align: left;
+        margin-top: 250px;
+    }
+
+    .lead {
+        text-align: left;
+       
+    }
+
+    .card-title{
+        text-align: center;
+        font-weight: bolder;
+
+    }
+
+    .card-text-center {
+
+        padding-top: 100px ;
+
+    }
+    /* this makes all of the images go to 100% of the column that they live inside */
+   
+   
+   .list-group {
+
+
+padding-left: 500 px;
+padding-right: 500 px;
+
+
+   }
+   .card-text-center1 {
+
+    padding-left: 500px;
+    padding-right: 500px;
+
+   }
+   
+
+    .col {
+
+        padding-top: 50px ;
+ }
+ 
+ 
+    img {
+    width: 100%;
+    }
+
+
+.btn {
+
+   
+    text-align: center; 
 }
-
-/* to make a more specific selector within the HTML you need to create ID tags for specific portions of the HTML.  In this case we made the first ID as__ p id="first"__ */
-/* selectors need to be lowercase and all one word */
-
-body{background-color: skyblue;}
-
-
-.header {
-border-color: saddlebrown;
-border-style: groove;
-box-shadow: 10px 5px 5px black;;
-}
-
-#first {
-    color:purple;
-}
-#second {
-    color: orange;
-}
-
-.three {
-    color: green; 
-    text-shadow: 50px rgb(34, 8, 8);
-}
-
-#business {width: 200px; height: 300px;}
-
-.tacos {color:black; font-size: xx-large}      
-
-/* the selector for classes is "." + "attribute" */
-
-.si {color:royalblue;}
-
-
-
-
-
-
-

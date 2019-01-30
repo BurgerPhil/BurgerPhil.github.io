@@ -1,99 +1,176 @@
-
-
-
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<title>Mr. Deupmann's Website</title>
-
-<link rel="stylesheet" href="styles.css"> 
-
-<!-- the link to stylesheet is above for the styles css tab -->
-
-    <body>
-
-        <h1 class="header">Hi! Welcome to the MR. DEUPMANN PAGE!</h1>
-
-        <p id="first"> What is this site<em> <strong>all about!</strong></em></p>   
-        <ol>
-            <li>Showing how Awesome I am</li>
-            <li>Educating my peers on how to be cool like me</li>
-            <li>uncovering and sharing my emotions and feels</li>
-            </ol>    
-
-        <p id="second">First, let's see if you can find me</p>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<!--Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<!-- This is out own style sheet. This must be below the bootstrap link in order to over write what is in the bootstraps -->
+<link rel="stylesheet" href="styles.css">
 
 
-        <!-- you can create a "class" that allows you to have an identifier that applies to multiple paragrapgs, images, etc
-         these can even be applied to IDs.  You can also apply multiple classes to an element-->
-
-
-
-        <p class="three">Turn on the tunes and sit back and relax</p>
-
-
-        <audio controls>
-                <source src="ROCKY-BALBOA-Theme-Song.mp3" type="audio/mpeg">
-        </audio>
-
-        <div></div>
-
-        <p><marquee> who is Tom Deupmann really? </marquee></p>
-
-        <div></div>
-        <marquee direction="down" width="250" height="200" behavior="alternate" style="border:solid">
-            <marquee behavior="alternate">
-            <img src= "question.gif" style="width:100px;height:60px;">
-            </marquee>
-        </marquee>
-        <div></div>
-
-        <p>Am I in this photo? Si o no?</p>  
-
-        <div></div>
-
-            <p><img id="business" src="happy-businessmen-looking-at-the-future_1098-97.jpg"   >         
-
-        </p>
-
-        <div></div>
-        <p><strong>NO YOU FOOL!</strong></p>
-
-        <div></div>
-
-        <p class="si">How about here? SI O NO?</p>
-
-        <div></div>
-
-            <p><img src="is this me v2.jpg"style="width:300px;height:200px;"  >          
-
-        </p>
-
-
-        <p>Absolutely not!!!!!!!!!!!!!!!!!!</p>
-
-        <p>Here? SI O NO?</p>
-
-        <div></div>
-
-            <p><img src="tomskiing.jpg" style="width:300px;height:200px;" >          
-
-        </p>
-
-        <p>Getting closer but not quite</p>
-
-
-        <div></div>
-
-            <p><img src="tomactual.jpg" style="width:100px;height:60px;"  >   
-
-
-        <div></div>
-
-        ]
-
-    <p><a href="about.html">About Me</a></p>    
-
-    </body>
+<title>two4fun</title>
 </head>
+<body>
+
+<!-- NAV BAR -->
+<div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><img src="logo.png" alt="Logo">  </a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a class="nav-link" href="location.html">Locations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a> </li>
+                     </ul>
+                      
+                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Sign in <i class="fas fa-user-plus"></i></a>  </li>
+                     </ul>
+                
+            </div>
+        </nav>
+
+
+
+</div>
+
+
+
+<!-- FLUID JUMBOTRON -->
+
+<div class="container-fluid">  
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+      <h1 class="display-4">Chance is not your friend</h1>
+      <p class="lead">We can help with that</p>
+        </div>
+    </div>
+
+
+</div>
+
+<!-- Card Deck- describing why the product -->
+<div class="container-fluid"> 
+
+    <div class="card-deck">
+        <div class="card">
+        <img src="meet.jpg" class="card-img-top" alt="couples meeting">
+                <div class="card-body">
+                            <h5 class="card-title">Connect</h5>
+                            <p class="card-text">Discover and connect with people from all over the world who are traveling to the same place as you</p>
+                </div>
+                    <div class="card-footer"> </div>
+        </div>
+        
+        <div class="card">
+            <img src="explore.jpg" class="card-img-top" alt="couples exploring">
+                <div class="card-body">
+                            <h5 class="card-title">Explore</h5>
+                            <p class="card-text">Meet with other couples and share memorable experience while traveling</p>
+                </div>
+        <div class="card-footer"> </div>
+        </div>
+        <div class="card">
+        <img src="build.PNG" class="card-img-top" alt="social network">
+                <div class="card-body">
+                            <h5 class="card-title">Build</h5>
+                            <p class="card-text">Learn about other countries and cultures while building a global network</p>
+                </div>
+                    <div class="card-footer"> </div></div>
+    </div>
+
+</div>
+
+
+<div class = "container-fluid"> 
+
+            <!-- statistics list -->
+
+                <div class= "row"> 
+                    
+                    <div class="col">
+
+                            <div class="card text-center">
+                                    <div class="card-header">
+                                    Our community is Growing
+                                    </div>
+                                <ul class="list-group">
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Number of couples
+                                        <span class="badge badge-primary badge-pill">20,000</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Countries of Origin
+                                        <span class="badge badge-primary badge-pill">30</span>
+                                        </li>
+                                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                                        Number of Meet ups
+                                        <span class="badge badge-primary badge-pill">100,000</span>
+                                        </li>
+                                    </ul>
+                            </div>   
+                    </div>           
+
+
+
+
+            <!--Link to setting up profile -->
+
+                    <div class= "col">
+
+                        <div class="card text-center1">
+                            <div class="card-header">
+                                    Getting started
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title">Create a Profile </h5>
+                            <p class="card-text">Tell us about yourself and start connecting with other couples today!</p>
+                            <a href="profile.html" class="btn btn-primary">Lets Go!</a>
+                            </div>
+                            
+                        </div>
+                    </div>    
+
+                </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</body>
 </html>
